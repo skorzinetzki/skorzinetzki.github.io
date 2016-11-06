@@ -1,0 +1,48 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          {% if site.author %}
+          <li><i class="fa fa-fw fa-user"></i> {{ site.author | escape }}</li>
+          {% else %}
+          <li><i class="fa fa-fw fa-home"></i> {{ site.title | escape }}</li>
+          {% endif %}
+          
+          {% if site.email %}
+          <li><i class="fa fa-fw fa-envelope-o"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h3>Social</h3>
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li><i class="fa fa-fw fa-github"></i> <a href="https://github.com/{{ site.github_username }}">github</a></li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li><i class="fa fa-fw fa-twitter"></i> <a href="https://twitter.com/{{ site.twitter_username }}">twitter</a></li>
+          {% endif %}
+          
+          {% if site.500px_username %}
+          <li><i class="fa fa-fw fa-500px"></i> <a href="https://500px.com/{{ site.500px_username }}">500px</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h3>Description</h3>
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
