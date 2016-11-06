@@ -24,6 +24,7 @@ github_username:  skorzinetzki
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
 theme: minima
 gems:
   - jekyll-feed
