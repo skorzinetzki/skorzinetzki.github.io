@@ -4,7 +4,6 @@ title:  "Automatische Kopie einer Datenbank in Microsoft Azure"
 date:   2016-11-06 12:25:33 +0100
 categories: cloud continuous-delivery deployment
 tags: azure powershell database automation infrastructure-as-code
-excerpt_separator: <!--more-->
 ---
 Im Rahmen der Migration eines Kunden-Systems in die Azure-Cloud arbeiten wir derzeit daran, die im Hintergrund benötigte Infrastrukturbereitstellung zu automatisieren. Neben den üblichen Systemumgebungen (Entwicklung, Test, Produktion) wird für die Abnahme eine QS-Umgebung benötigt. Diese hat als Anforderung, die Produktionsumgebung soweit möglich nachzustellen. Ein wichtiges Kernelement hierfür ist die Datenbank.
 

@@ -1,22 +1,26 @@
-# Site settings
-title:  skorzinetzki.github.io - blog
+# site settings
+title:  skorzinetzki.github.io
 author: Steve Korzinetzki
-email:  steve.korzinetzki@lise.de
+email:  steve.korzinetzki@gmail.com
 description: > 
   my personal blog about software development, 
   continuous delivery, photography and more
 baseurl: ""
 url: "https://skorzinetzki.github.io"
+excerpt_separator: <!--more-->
+
+# social media links
 twitter_username: skorzinetzki
 github_username:  skorzinetzki
 500px_username:   steve-korzinetzki
 
-# Build settings
+# build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-gravatar
 exclude:
   - Gemfile
   - Gemfile.lock
