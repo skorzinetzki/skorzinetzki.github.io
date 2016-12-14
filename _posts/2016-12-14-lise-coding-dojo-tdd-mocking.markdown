@@ -73,6 +73,8 @@ Mocks helfen dabei, Unit-Tests zu isolieren, zu schärfen und ihre Ausführungsd
 
 Die Aufgabenbeschreibung und der dafür notwendige Code ist auf [GitHub][GitHub] verfügbar. Alles Nötige für die Durchführung ist hier erklärt. Außerdem liegen zwei Beispiel-Lösungen von meinem Kollegen [Martin Dieblich][MartinSolution] und [mir][SteveSolution] als eigene Branches im Repository vor. Viel Spaß beim Üben!
 
+*Dieser Blogpost wurde ebenfalls auf [Softwareentwicklung Köln Blog][se-koeln-blog] veröffentlicht.*
+
 [TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 [YAGNI]: https://de.wikipedia.org/wiki/YAGNI
 [NUnit]: https://github.com/nunit/docs/wiki
@@ -86,3 +88,4 @@ Die Aufgabenbeschreibung und der dafür notwendige Code ist auf [GitHub][GitHub]
 [SteveSolution]: https://github.com/skorzinetzki/tdd-mocking-dojo/tree/steve_develop
 [MartinSolution]: https://github.com/skorzinetzki/tdd-mocking-dojo/tree/martin_develop
 [lise]: https://www.lise.de
+[se-koeln-blog]: http://www.softwareentwicklung-koeln.de/test-driven-development-und-mocking-dojo/
