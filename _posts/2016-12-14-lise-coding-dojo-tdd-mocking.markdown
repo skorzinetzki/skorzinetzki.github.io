@@ -7,6 +7,7 @@ tags: test github nunit fluentassertions mock moq csharp
 ---
 Am Freitag, den 2.12.2016, wurde bei der [lise][lise] das Developer Meeting in Form eines Coding Dojos veranstaltet. Im Dojo wurden gleich zwei Themen rund um das Testen von Software behandelt. Zum Einen wurde das Test Driven Development als Methode geübt, zum Anderen das isolierte Testen einer Komponente durch Mocking vermittelt. Die eigens dafür erstellten Übungsaufgaben stehen frei [zur Verfügung][GitHub] und können selbstständig durchgeführt werden. Dieser Blogpost stellt das Dojo und die Übungen vor.
 <!--more-->
+
 ## Coding Dojo
 
 ![Photo from the coding Dojo]({{ site.url }}/assets/lise-coding-dojo.jpg)
