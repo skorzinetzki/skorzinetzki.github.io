@@ -20,7 +20,6 @@ permalink: /:year/:month/:day/:title/
 theme: minima
 gems:
   - jekyll-feed
-  - jekyll-gravatar
 exclude:
   - Gemfile
   - Gemfile.lock
