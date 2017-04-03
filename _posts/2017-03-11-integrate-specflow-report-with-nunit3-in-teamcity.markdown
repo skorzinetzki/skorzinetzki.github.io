@@ -34,6 +34,9 @@ Now, the work is done, so let's have a look at the result. Here is one screensho
 
 ![team city build pipeline with specflow report tab]({{ site.url }}/assets/teamcity-specflow-report.png)
 
+*This post was also published on [Softwareentwicklung Köln Blog][se-koeln-blog] (german).*
+
 [SpecFlow]: http://specflow.org/
 [NUnit]: https://github.com/nunit/nunit
 [TeamCity]: https://www.jetbrains.com/teamcity/
+[se-koeln-blog]: http://www.softwareentwicklung-koeln.de/integration-von-specflow-reports-mit-nunit-3-in-teamcity/
