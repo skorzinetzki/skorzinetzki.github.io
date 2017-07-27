@@ -17,7 +17,7 @@ github_username:  skorzinetzki
 # build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-theme: minima
+theme: jekyll-theme-architect
 gems:
   - jekyll-feed
 exclude:
